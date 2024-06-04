@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -mavx512bw -msse2 -mavx2 -fopenmp CMakeFiles/graph_benchmark.dir/src/edge.cc.o CMakeFiles/graph_benchmark.dir/apps/graph_benchmark.cc.o -o graph_benchmark   -L/usr/local/lib  -L/usr/local/pcm-202311/build/lib  -Wl,-rpath,/usr/local/lib:/usr/local/pcm-202311/build/lib -pthread -ltbb -lpcm 
